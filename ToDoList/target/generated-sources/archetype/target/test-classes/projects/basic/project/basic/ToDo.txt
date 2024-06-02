@@ -1,0 +1,3 @@
+"Buy groceries","0"
+"Do the laundry","0"
+"Clean the dishes","1"
