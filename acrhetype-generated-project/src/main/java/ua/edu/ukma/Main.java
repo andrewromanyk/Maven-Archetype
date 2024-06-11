@@ -1,4 +1,4 @@
-package it.pkg;
+package ua.edu.ukma;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

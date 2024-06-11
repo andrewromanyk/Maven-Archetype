@@ -61,5 +61,6 @@
   <modules>
     <module>CSVHandler</module>
     <module>ToDoHandler</module>
+    <module>ConsoleToDo</module>
   </modules>
 </project>

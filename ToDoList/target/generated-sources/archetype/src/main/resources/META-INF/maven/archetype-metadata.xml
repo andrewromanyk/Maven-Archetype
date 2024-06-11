@@ -42,7 +42,6 @@
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
-        <include>.gitignore</include>
         <include>ToDoConsole.iml</include>
         <include>ToDoList.iml</include>
       </includes>
@@ -71,6 +70,16 @@
           <directory>src/main/resources</directory>
           <includes>
             <include>**/*.txt</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+    </module>
+    <module id="ConsoleToDo" dir="ConsoleToDo" name="ConsoleToDo">
+      <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+          <directory>src/main/java</directory>
+          <includes>
+            <include>**/*.java</include>
           </includes>
         </fileSet>
       </fileSets>
