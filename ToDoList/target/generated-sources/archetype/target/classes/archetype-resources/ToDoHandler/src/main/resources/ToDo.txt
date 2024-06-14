@@ -1,0 +1,6 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+"Buy groceries","0"
+"Do the laundry","0"
+"Clean the dishes","1"
