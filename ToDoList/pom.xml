@@ -65,4 +65,20 @@
         </plugins>
     </build>
 
+
+    <profiles>
+        <profile>
+            <id>test-skip-os</id>
+            <properties>
+                <maven.test.skip>true</maven.test.skip>
+            </properties>
+            <activation>
+                <os>
+                    <family>Windows</family>
+                    <name>Windows 10</name>
+                </os>
+            </activation>
+        </profile>
+    </profiles>
+
 </project>
